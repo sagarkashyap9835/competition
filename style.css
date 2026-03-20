@@ -173,3 +173,40 @@
 .card:hover {
     transform: translateY(-10px);
 }
+
+.features {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f9fafc;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.features p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
